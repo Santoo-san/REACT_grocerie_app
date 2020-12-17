@@ -9,12 +9,11 @@ function List() {
         <p>Test text2.....</p>
 
         <ul>
-          <ListItem />
-          <li>villa</li>
-          <li>sportwagen</li>
-          <li>jacht</li>
-          <li>vakantiehuis</li>
-          <li>groentetuin</li>
+          <ListItem item="filterkoffie" />
+          <ListItem item="koffiefilters" />
+          <ListItem item="koffiefilter" />
+          <ListItem item="koffiekopjes" />
+          <ListItem item="water" />
         </ul>
         {/* <a
             className="App-link"
