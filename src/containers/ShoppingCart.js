@@ -4,7 +4,11 @@ import List from "../components/List/List";
 const ShoppingCart = ({ groceryItems, handleClickEmptyCart }) => {
   return (
     <React.Fragment>
-      <button className="button-primary" onClick={handleClickEmptyCart}>
+      <button
+        className="button-primary"
+        id="empty-cart"
+        onClick={handleClickEmptyCart}
+      >
         Leeg de winkelmand
       </button>
       {<List readonly={true} items={groceryItems} />}

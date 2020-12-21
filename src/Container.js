@@ -8,11 +8,11 @@ class Container extends React.Component {
     this.state = {
       groceryInput: "",
       groceryItems: [
-        { id: 1, title: "appels" },
-        { id: 2, title: "pak melk" },
-        { id: 3, title: "chocolade" },
+        { id: 1, title: "pakken filterkoffie" },
+        { id: 2, title: "koffiefilters" },
+        { id: 3, title: "koffiefilterhouder" },
       ],
-      shoppingListItems: [{ id: 1, title: "chocolade", amount: 2 }],
+      shoppingListItems: [{ id: 1, title: "pakken filterkoffie", amount: 2 }],
     };
   }
   render() {
